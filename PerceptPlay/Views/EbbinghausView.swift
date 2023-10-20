@@ -60,13 +60,13 @@ struct EbbinghausView: View {
             VStack(spacing: 20) {
                 Text("EbbinghausOpticalIllusion")
                     .font(.title)
-                VStack(alignment: .leading, spacing: 10) {
+                VStack(alignment: .leading, spacing: 20) {
+                    Text("Ebbinghaus.description")
+                        .font(.caption)
                     Text("Which is bigger?")
                         .font(.headline)
                     Text("Tap the buttons to change the size.")
                         .font(.subheadline)
-                    Text("Ebbinghaus.description")
-                        .font(.caption)
                 }
             }
             Spacer()
@@ -91,4 +91,5 @@ struct EbbinghausView: View {
 
 #Preview {
     EbbinghausView()
+        .environment(\.locale, .init(identifier: "ja"))
 }

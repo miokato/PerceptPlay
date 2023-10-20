@@ -56,15 +56,15 @@ struct MullerLyerView: View {
             VStack(spacing: 20) {
                 Text("MullerLyerOpticalIllusion")
                     .font(.title)
-                VStack(alignment: .leading, spacing: 10) {
+                VStack(alignment: .leading, spacing: 20) {
+                    Text("MullerLyer.description")
+                        .font(.caption)
                     Text("Which is longer?")
                         .font(.headline)
                     Text("Let's touch and move the figure!")
                         .font(.subheadline)
                     Text("Let's superimpose figures.")
                         .font(.subheadline)
-                    Text("MullerLyer.description")
-                        .font(.caption)
                 }
             }
             .padding(.top, 10)

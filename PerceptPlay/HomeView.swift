@@ -10,13 +10,16 @@ import SwiftUI
 enum OpticalIllusionType: CaseIterable {
     case mullerLyer
     case ebbinghaus
+    case fick
     
     var title: LocalizedStringKey {
         switch self {
         case .mullerLyer:
-            return "MullerLyer"
+            return "MullerLyerOpticalIllusion"
         case .ebbinghaus:
-            return "Ebbinghaus"
+            return "EbbinghausOpticalIllusion"
+        case .fick:
+            return "Fick illusion"
         }
     }
 }
@@ -36,6 +39,8 @@ struct HomeView: View {
                     MullerLyerView()
                 case .ebbinghaus:
                     EbbinghausView()
+                case .fick:
+                    FickView()
                 }
             })
             .navigationTitle("OpticalIllusion")

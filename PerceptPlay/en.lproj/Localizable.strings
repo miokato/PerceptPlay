@@ -22,3 +22,11 @@
 "Which is bigger?" = "Which is bigger?";
 "Tap the buttons to change the size." = "Tap the buttons to change the size.";
 "Ebbinghaus.description" = "The Ebbinghaus illusion is a type of visual illusion related to relative size perception. The most well-known type of this illusion is that two circles of the same size are surrounded by a larger circle or a smaller circle, respectively. The former circle is perceived to be smaller while the latter is perceived to be larger.";
+
+// Fick
+"Fick illusion" = "Fick illusion";
+"Fick.description" = "The Fick illusion was proposed by Fick in 1851, in which figures of the same length appear to be longer than those of the same length when they are aligned vertically or horizontally. The two figures "A" and "B" in the right image are congruent, but B appears to be longer than A. In addition, A appears to be thicker than B. In addition, figure A appears to be thicker than figure B. This is generally believed to be caused by the fact that vertical-horizontal lines are perceived to be longer than horizontal lines, but the detailed mechanism has not yet been clarified because figure B appears to be longer than figure A even when the figure is tilted 90 degrees. This illusion is also called the vertical-horizontal illusion (V-H illusion).
+
+Translated with www.DeepL.com/Translator (free version)";
+"Which is longer, A or B?" = "Which is longer, A or B?";
+"Tap a button to rotate a shape!" = "Tap a button to rotate a shape!";
