@@ -69,7 +69,7 @@ struct MullerLyerView: View {
             shapes
                 .frame(height: 200)
             Spacer()
-            Button("タップ！") {
+            Button("Tap") {
                 withAnimation {
                     isShape1Inverse.toggle()
                     isShape2Inverse.toggle()

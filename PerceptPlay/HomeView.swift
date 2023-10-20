@@ -16,17 +16,16 @@ enum OpticalIllusionType: CaseIterable {
     var title: LocalizedStringKey {
         switch self {
         case .mullerLyer:
-            return "MullerLyerOpticalIllusion"
+            return "MullerLyer.title"
         case .ebbinghaus:
-            return "EbbinghausOpticalIllusion"
+            return "Ebbinghaus.title"
         case .fick:
-            return "Fick illusion"
+            return "Fick.title"
         case .cafewall:
-            return "Cafewall Illusion"
+            return "Cafewall.title"
         }
     }
 }
-
 
 struct HomeView: View {
     var body: some View {
@@ -48,7 +47,7 @@ struct HomeView: View {
                     CafeWallView()
                 }
             })
-            .navigationTitle("OpticalIllusion")
+            .navigationTitle("PerceptPlay")
         }
     }
 }

@@ -7,9 +7,11 @@
 */
 
 // Common
+"PerceptPlay" = "さわれる錯視";
 "OpticalIllusion" = "錯視";
 "MullerLyer" = "ミュラーリヤー";
 "Ebbinghaus" = "エビングハウス";
+"Tap" = "タップ";
 
 // Muller Lyer
 "MullerLyer.title" = "ミュラーリヤー錯視";
