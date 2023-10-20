@@ -52,10 +52,8 @@ struct MullerLyerView: View {
     }
     
     var body: some View {
-        VStack(spacing: 10) {
+        VStack(spacing: 20) {
             VStack(spacing: 20) {
-                Text("MullerLyerOpticalIllusion")
-                    .font(.title)
                 VStack(alignment: .leading, spacing: 20) {
                     Text("MullerLyer.description")
                         .font(.caption)
@@ -68,8 +66,8 @@ struct MullerLyerView: View {
                 }
             }
             .padding(.top, 10)
-            Spacer()
             shapes
+                .frame(height: 200)
             Spacer()
             Button("タップ！") {
                 withAnimation {
@@ -80,6 +78,7 @@ struct MullerLyerView: View {
             .buttonStyle(.borderedProminent)
         }
         .padding(.horizontal, 24)
+        .navigationTitle("MullerLyer.title")
     }
 }
 

@@ -11,20 +11,20 @@
 "Ebbinghaus" = "Ebbinghaus";
 
 // Muller Lyer
-"MullerLyerOpticalIllusion" = "MullerLyer Optical Illusion";
+"MullerLyer.title" = "MullerLyer Optical Illusion";
 "Which is longer?"; = "Which is longer?";
 "Let's touch and move the figure!" = "Let's touch and move the figure!";
 "Let's superimpose figures." = "Let's superimpose figures.";
 "MullerLyer.description" = "The Müller-Lyer illusion was introduced by Müller-Lyer in 1889. The upper line segment with inward arrow feathers at both ends (upper row) and the middle line segment with outward arrow feathers (middle row) appear to be shorter and longer than the lower one, but they are actually the same length. Various aspects have been used to explain how this illusion occurs, but one famous explanation is the line perspective presented by Grigory in 1963. Another application of this illusion is Judd's figure. Judd's figure is a figure that uses the illusion that when a middle point is struck in the center of a line segment and arrow feathers of different orientations are attached to both ends, the middle point appears to be shifted to the side to which the outward arrow feathers are attached. This illusion is called the \"illusion of size.\"";
 
 // Ebbinghaus
-"EbbinghausOpticalIllusion" = "Ebbinghaus Optical Illusion";
+"Ebbinghaus.title" = "Ebbinghaus Optical Illusion";
 "Which is bigger?" = "Which is bigger?";
 "Tap the buttons to change the size." = "Tap the buttons to change the size.";
 "Ebbinghaus.description" = "The Ebbinghaus illusion is a type of visual illusion related to relative size perception. The most well-known type of this illusion is that two circles of the same size are surrounded by a larger circle or a smaller circle, respectively. The former circle is perceived to be smaller while the latter is perceived to be larger.";
 
 // Fick
-"Fick illusion" = "Fick illusion";
+"Fick.title" = "Fick illusion";
 "Fick.description" = "The Fick illusion was proposed by Fick in 1851, in which figures of the same length appear to be longer than those of the same length when they are aligned vertically or horizontally. The two figures "A" and "B" in the right image are congruent, but B appears to be longer than A. In addition, A appears to be thicker than B. In addition, figure A appears to be thicker than figure B. This is generally believed to be caused by the fact that vertical-horizontal lines are perceived to be longer than horizontal lines, but the detailed mechanism has not yet been clarified because figure B appears to be longer than figure A even when the figure is tilted 90 degrees. This illusion is also called the vertical-horizontal illusion (V-H illusion).
 
 Translated with www.DeepL.com/Translator (free version)";
@@ -32,7 +32,7 @@ Translated with www.DeepL.com/Translator (free version)";
 "Tap a button to rotate a shape!" = "Tap a button to rotate a shape!";
 
 // Cafewall
-"Cafewall Illusion" = "Cafewall Illusion";
+"Cafewall.title" = "Cafewall Illusion";
 "Cafewall.description" = "The Cafe Wall illusion is one of the geometric illusions. Parallel lines between alternating rows of black-and-white "bricks" appear to tilt. First described in 1898 under the name of the Kindergarten illusion, it was rediscovered in 1973 by Richard Gregory, who said that the effect was observed by Steve Simpson, a member of his laboratory, on the tiles of a cafe wall This was observed on tiles in a cafe at the foot of St. Michaels Hill in Bristol. This is another form of the displaced chessboard illusion created by Hugo Munsterberg. In the structure of the illusion, each "brick" is surrounded by a layer of "mortar" of an intermediate color between the darker and lighter colors of the "bricks". As a first attempt at dissection, the illusion is mainly due to luminescence: light spreads from dark to light areas in the retinal image, and the image disappears when black and white are replaced by different colors of the same brightness. However, the components of the illusion remain even when all optical and retinal elements are bracketed out. Contrast polarity seems to be a factor in determining the direction of tilt.
 
 Translated with www.DeepL.com/Translator (free version)";

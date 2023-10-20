@@ -48,8 +48,6 @@ struct CafeWallView: View {
     var body: some View {
         VStack {
             VStack(spacing: 20) {
-                Text("Cafewall Illusion")
-                    .font(.title)
                 VStack(alignment: .leading, spacing: 20) {
                     Text("Cafewall.description")
                         .font(.caption)
@@ -71,6 +69,7 @@ struct CafeWallView: View {
             .buttonStyle(.borderedProminent)
         }
         .padding(.horizontal, 24)
+        .navigationTitle("Cafewall.title")
     }
 }
 

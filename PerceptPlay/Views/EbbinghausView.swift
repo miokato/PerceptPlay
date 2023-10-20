@@ -58,8 +58,6 @@ struct EbbinghausView: View {
     var body: some View {
         VStack {
             VStack(spacing: 20) {
-                Text("EbbinghausOpticalIllusion")
-                    .font(.title)
                 VStack(alignment: .leading, spacing: 20) {
                     Text("Ebbinghaus.description")
                         .font(.caption)
@@ -86,6 +84,7 @@ struct EbbinghausView: View {
             .buttonStyle(.borderedProminent)
         }
         .padding(.horizontal, 24)
+        .navigationTitle("Ebbinghaus.title")
     }
 }
 

@@ -36,8 +36,6 @@ struct FickView: View {
     var body: some View {
         VStack {
             VStack(spacing: 20) {
-                Text("Fick illusion")
-                    .font(.title)
                 VStack(alignment: .leading, spacing: 20) {
                     Text("Fick.description")
                         .font(.caption)
@@ -58,6 +56,7 @@ struct FickView: View {
             .buttonStyle(.borderedProminent)
         }
         .padding(.horizontal, 24)
+        .navigationTitle("Fick.title")
     }
 }
 
