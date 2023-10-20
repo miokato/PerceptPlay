@@ -30,3 +30,11 @@
 Translated with www.DeepL.com/Translator (free version)";
 "Which is longer, A or B?" = "Which is longer, A or B?";
 "Tap a button to rotate a shape!" = "Tap a button to rotate a shape!";
+
+// Cafewall
+"Cafewall Illusion" = "Cafewall Illusion";
+"Cafewall.description" = "The Cafe Wall illusion is one of the geometric illusions. Parallel lines between alternating rows of black-and-white "bricks" appear to tilt. First described in 1898 under the name of the Kindergarten illusion, it was rediscovered in 1973 by Richard Gregory, who said that the effect was observed by Steve Simpson, a member of his laboratory, on the tiles of a cafe wall This was observed on tiles in a cafe at the foot of St. Michaels Hill in Bristol. This is another form of the displaced chessboard illusion created by Hugo Munsterberg. In the structure of the illusion, each "brick" is surrounded by a layer of "mortar" of an intermediate color between the darker and lighter colors of the "bricks". As a first attempt at dissection, the illusion is mainly due to luminescence: light spreads from dark to light areas in the retinal image, and the image disappears when black and white are replaced by different colors of the same brightness. However, the components of the illusion remain even when all optical and retinal elements are bracketed out. Contrast polarity seems to be a factor in determining the direction of tilt.
+
+Translated with www.DeepL.com/Translator (free version)";
+"Are the horizontal lines straight?" = "Are the horizontal lines straight?";
+"Tap the button." = "Tap the button.";
