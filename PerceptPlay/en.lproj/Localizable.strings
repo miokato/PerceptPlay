@@ -1,0 +1,24 @@
+/* 
+  Localizable.strings
+  PerceptPlay
+
+  Created by mio kato on 2023/10/20.
+  
+*/
+// Common
+"OpticalIllusion" = "Optical Illusion";
+"MullerLyer" = "MullerLyer";
+"Ebbinghaus" = "Ebbinghaus";
+
+// Muller Lyer
+"MullerLyerOpticalIllusion" = "MullerLyer Optical Illusion";
+"Which is longer?"; = "Which is longer?";
+"Let's touch and move the figure!" = "Let's touch and move the figure!";
+"Let's superimpose figures." = "Let's superimpose figures.";
+"MullerLyer.description" = "The Müller-Lyer illusion was introduced by Müller-Lyer in 1889. The upper line segment with inward arrow feathers at both ends (upper row) and the middle line segment with outward arrow feathers (middle row) appear to be shorter and longer than the lower one, but they are actually the same length. Various aspects have been used to explain how this illusion occurs, but one famous explanation is the line perspective presented by Grigory in 1963. Another application of this illusion is Judd's figure. Judd's figure is a figure that uses the illusion that when a middle point is struck in the center of a line segment and arrow feathers of different orientations are attached to both ends, the middle point appears to be shifted to the side to which the outward arrow feathers are attached. This illusion is called the \"illusion of size.\"";
+
+// Ebbinghaus
+"EbbinghausOpticalIllusion" = "Ebbinghaus Optical Illusion";
+"Which is bigger?" = "Which is bigger?";
+"Tap the buttons to change the size." = "Tap the buttons to change the size.";
+"Ebbinghaus.description" = "The Ebbinghaus illusion is a type of visual illusion related to relative size perception. The most well-known type of this illusion is that two circles of the same size are surrounded by a larger circle or a smaller circle, respectively. The former circle is perceived to be smaller while the latter is perceived to be larger.";
