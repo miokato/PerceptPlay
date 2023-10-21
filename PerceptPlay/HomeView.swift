@@ -13,6 +13,7 @@ enum OpticalIllusionType: CaseIterable {
     case fick
     case cafewall
     case zollner
+    case justrow
     
     var title: LocalizedStringKey {
         switch self {
@@ -26,6 +27,8 @@ enum OpticalIllusionType: CaseIterable {
             return "Cafewall.title"
         case .zollner:
             return "Zollner.title"
+        case .justrow:
+            return "Justrow.title"
         }
     }
 }
@@ -54,6 +57,8 @@ struct HomeView: View {
                     CafeWallView()
                 case .zollner:
                     ZollnerView()
+                case .justrow:
+                    JustrowView()
                 }
             })
             .navigationTitle("PerceptPlay")

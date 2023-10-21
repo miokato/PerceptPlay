@@ -43,3 +43,9 @@
 "Zollner.description" = "In 1860, Zellner communicated his findings to the physicist Johann Pogendorff, who was editor of the Annalen der Physik und Chemie. Poggendorff later discovered the related Poggendorff illusion in Zöllner's diagram.
 In this figure, the black long lines do not appear to be parallel, but they actually are. The short lines form an angle with the long lines. This angle gives the impression that one end of the long line is closer to us than the other. This is similar to the Wundt illusion. The Zöllner illusion may be caused by the impression of depth. It is interesting to see what happens when the color of the illusory image is changed. If the background of the illusory figure is red and lines are drawn in equiluminant green, the illusion disappears. This illusion is similar to the Hering illusion, the Poggendorff illusion, and the Müller-Lyer illusion. In all of these illusions, line segments appear to be distorted by the background.";
 "Use the slider to change the slope of the vertical line." = "Use the slider to change the slope of the vertical line.";
+
+// Justrow
+"Justrow.title" = "Justrow Figure";
+"Justrow.description" = "This illusion is also called the Jastrow illusion. In the upper image, the inner fan appears to be larger than the lower one. In addition, the upper trapezoid appears to be larger than the lower one when they are aligned vertically.";
+"Which figure is larger, figure A or figure B?" = "Which figure is larger, figure A or figure B?";
+"Let's move the figure." = "Let's move the figure.";
