@@ -35,17 +35,12 @@ struct JustrowShape: Shape {
             }
             
             // Above
-            path.move(to: leftTopPt)
-            path.addLine(to: leftBottomPt)
-            path.move(to: leftTopPt)
+            path.move(to: leftBottomPt)
+            path.addLine(to: leftTopPt)
             path.addQuadCurve(to: rightTopPt,
                               control: topCtrlPt)
-            
-            // Below
-            path.move(to: rightBottomPt)
-            path.addLine(to: rightTopPt)
-            path.move(to: leftBottomPt)
-            path.addQuadCurve(to: rightBottomPt,
+            path.addLine(to: rightBottomPt)
+            path.addQuadCurve(to: leftBottomPt,
                               control: bottomCtrlPt)
         }
     }
@@ -60,7 +55,8 @@ struct JustrowView: View {
         ZStack {
             ZStack {
                 JustrowShape()
-                    .stroke(lineWidth: 5)
+                    .stroke(.black, style: StrokeStyle(lineWidth: 5, lineCap: .round, lineJoin: .round))
+                    .fill(.green)
                     .contentShape(Rectangle())
                     .frame(width: 280, height: 140)
                 Text("A")
@@ -75,7 +71,8 @@ struct JustrowView: View {
             }))
             ZStack {
                 JustrowShape()
-                    .stroke(lineWidth: 5)
+                    .stroke(.black, style: StrokeStyle(lineWidth: 5, lineCap: .round, lineJoin: .round))
+                    .fill(.green)
                     .contentShape(Rectangle())
                     .frame(width: 280, height: 140)
                 Text("B")
