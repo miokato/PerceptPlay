@@ -34,8 +34,12 @@ struct HomeView: View {
     var body: some View {
         NavigationStack {
             List {
-                ForEach(OpticalIllusionType.allCases, id: \.self) { illustionType in
-                    NavigationLink(illustionType.title, value: illustionType)
+                Section {
+                    ForEach(OpticalIllusionType.allCases, id: \.self) { illustionType in
+                        NavigationLink(illustionType.title, value: illustionType)
+                    }
+                } header: {
+                    Text("Visual Illusion")
                 }
             }
             .navigationDestination(for: OpticalIllusionType.self, destination: { illusionType in
