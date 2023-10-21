@@ -107,6 +107,7 @@ struct JustrowView: View {
                 Spacer(minLength: 100)
             }
             .padding(.horizontal, 24)
+            .navigationTitle("Justrow.title")
         }
     }
 }
