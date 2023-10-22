@@ -49,3 +49,9 @@ In this figure, the black long lines do not appear to be parallel, but they actu
 "Justrow.description" = "This illusion is also called the Jastrow illusion. In the upper image, the inner fan appears to be larger than the lower one. In addition, the upper trapezoid appears to be larger than the lower one when they are aligned vertically.";
 "Which figure is larger, figure A or figure B?" = "Which figure is larger, figure A or figure B?";
 "Let's move the figure." = "Let's move the figure.";
+
+// Hermann Grid
+"HermannGrid.title" = "Herrmann Grid Optical Illusion";
+"HermannGrid.description" = "The Hermann grid (German: Hermann-Gitter, English: Hermann Grid, etc.) is a grid pattern as shown in the figure, in which the white intersections appear gray or slightly shadowed. This phenomenon is called the Hermann grid effect or Hermann grid illusion. It was discovered in 1870. It is sometimes called the Hermann grid illusion. The Hermann grid is named after Ludimar Hermann (October 21, 1838 - June 5, 1914), the discoverer of this phenomenon. Similar illusions exist such as the sparkling grating and the Bergen illusion. Two adjacent colors may be emphasized in the perception of retinal cells of the eye. This phenomenon has been believed to be caused by the contrast between black and white walls in the passage and the intersection, where the contrast is lower due to the slight distance from black. However, it has been shown that the illusion disappears when the grating is slightly distorted into a wavy shape, and it is not sufficient to explain that the illusion is caused by the contrast with the surroundings.";
+"HermannGrid.headline" = "Can you see the rectangle in the gap between the latticework?";
+"HermannGrid.subheadline" = "Use the slider to adjust the gap between the grids.";
